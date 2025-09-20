@@ -13,7 +13,7 @@ services:
       - notes-app-nw
 
   django_app:
-    image: adityapurkar/django_app:latest  # your Docker Hub image
+    image: adityapurkar/notesapp:latest  # your Docker Hub image
     container_name: "django_cont"
     ports:
       - "8000:8000"
